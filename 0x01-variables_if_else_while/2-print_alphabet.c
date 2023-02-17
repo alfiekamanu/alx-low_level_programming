@@ -18,5 +18,6 @@ int main(void)
 		ch <= 'z';
 		ch++)
 	       {  putchar(ch); }
+	putchar('\n');
 	return (0);
 }
