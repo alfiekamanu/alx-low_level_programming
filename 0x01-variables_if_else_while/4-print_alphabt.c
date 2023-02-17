@@ -17,7 +17,6 @@ int main(void)
 		(ch = 'a';
 		 ch <= 'z';
 		 ch++)
-		{  putchar(ch); }
 	if
 		(ch != 'e'
 		 && ch != 'q')
