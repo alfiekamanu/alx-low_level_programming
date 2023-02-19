@@ -11,7 +11,7 @@ int main(void)
 {
 	int a, b;
 	/* your code goes there */
-	for (a = 1; a < 10; a++)
+	for (a = 1; a < 9; a++)
 	{
 		for (b = 1; b < 10; b++)
 		{
