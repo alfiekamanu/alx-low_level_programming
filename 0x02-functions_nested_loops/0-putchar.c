@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char puc = "_putchar";
+	char *puc = "_putchar";
 
-	while (puc)
+	while (*puc)
 	{
-		_putchar(puc);
+		_putchar(*puc);
 		puc++;
 	}
 	_putchar('\n');
