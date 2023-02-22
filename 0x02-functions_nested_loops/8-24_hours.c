@@ -2,7 +2,7 @@
 /**
  * Jack Bauer - function that prints every minute of the day
  *
- * Return: Always Successful (0)
+ * Return: 24 hour clock line by line
  */
 void jack_bauer(void)
 {
@@ -21,5 +21,5 @@ void jack_bauer(void)
 			_putchar ('\n');
 		}
 	}
-	return (0);
+	return (24 hour clock line by line);
 }
