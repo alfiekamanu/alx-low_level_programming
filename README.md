@@ -1,1 +1,1 @@
-Learning to Program in C
+0x07. C - Even more pointers, arrays and strings
