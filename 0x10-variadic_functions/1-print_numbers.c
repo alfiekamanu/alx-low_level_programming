@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stadarg.h>
+#include <stdarg.h>
 #include <stdio.h>
 /**
  * print_numbers - function that prints numbers followed by a new line
@@ -9,7 +9,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;
 	unsigned int i;
-	sum = 0;
 
 	if(separator == NULL || *separator == 0)
 	{
