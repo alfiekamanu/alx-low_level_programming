@@ -8,7 +8,22 @@
   * @h: list to print elements of
   * Return: size_t of the list
   */
-size_t print_listint(const listint_t *h)
+typedef struct Node
+{
+	int data;
+	struct Node *next;
+}Node;
+typedef struct List
+{
+	int size;
+	Node *head;
+}List;
+void initList(list_t *h)
+{
+       l->head = NULL;
+l->size = 0;
+}
+size_t print_list(const list_t *h)
 {
 	size_t n = 0;
 
